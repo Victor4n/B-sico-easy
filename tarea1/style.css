@@ -1,0 +1,159 @@
+body{
+    background-image: linear-gradient( #ff3867 ,  #ffc873 ,  #d37ec6);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.card{
+    top: 4%; 
+    position: relative;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    width: 450px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 10px 1px #888888;
+}
+
+
+.imgBackground{
+    width: 100%;
+    object-fit: cover;
+    border-bottom: solid 5px;
+    border-color: #d37ec6;
+    border-radius: 10px 10px 0 0;
+}
+
+.imgBackground {
+    filter: brightness(70%) contrast(150%);
+    z-index: 0;
+  }
+
+.img{
+    position: absolute;
+    bottom: 62%;
+    left: 35%;
+    width: 128px;
+    height: 128px;
+    z-index: 1;
+}
+
+.imgAvatar{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: solid 5px;
+    border-color: #d37ec6;
+    z-index: 1;
+}
+
+.lorem{
+    position: absolute;
+    top: 45%;
+    padding: 50px;
+    font-family: "poppins";
+    font-size: 12px;
+}
+
+.user{
+    font-size: 30px;
+    padding: 15px 0 0 0;
+    margin: 0;
+    font-family: "Poppins", "Montserrat";
+}
+
+.location{
+    padding: 0px 0px;
+    margin: 0;
+    color: #a05d5d;
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.button{
+    position: absolute;
+    bottom: 15%;
+    left: 38%;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    color: #2d7cbf;
+    border-color: #2d7cbf;
+}
+
+.divisor{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+
+.divisor1{
+    position: absolute;
+    left: 33%;
+    bottom: 0%;
+    height: 10%;
+}
+
+.divisor2{
+    position: absolute;
+    right: 33%;
+    bottom: 0%;
+    height: 10%;
+}
+
+.Posts{
+    position: absolute;
+    bottom: 4%;
+    right: 79%;
+    font-family: "Poppins";
+    font-size: 14px;
+    color:  #888888;
+}
+
+.number{
+    position: absolute;
+    bottom: 0%;
+    right: 79%;
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.number2{
+    position: absolute;
+    bottom: 0%;
+    right: 45%;
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.number3{
+    position: absolute;
+    bottom: 0%;
+    right: 13%;
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.Followers{
+    position:absolute;
+    bottom: 4%;
+    right: 43%;
+    font-family: "Poppins";
+    font-size: 14px;
+    color:  #888888;
+}
+
+.Following{
+    position:absolute;
+    bottom: 4%;
+    right: 9%;
+    font-family: "Poppins";
+    font-size: 14px;
+    color:  #888888;
+}
+
